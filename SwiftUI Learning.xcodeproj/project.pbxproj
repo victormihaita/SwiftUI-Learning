@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		BA476884251E23E50076634D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA476883251E23E50076634D /* AppDelegate.swift */; };
 		BA476886251E23E50076634D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA476885251E23E50076634D /* SceneDelegate.swift */; };
-		BA476888251E23E50076634D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA476887251E23E50076634D /* ContentView.swift */; };
 		BA47688A251E23E70076634D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA476889251E23E70076634D /* Assets.xcassets */; };
 		BA47688D251E23E70076634D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA47688C251E23E70076634D /* Preview Assets.xcassets */; };
 		BA476890251E23E70076634D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA47688E251E23E70076634D /* LaunchScreen.storyboard */; };
 		BA47689B251E23E70076634D /* SwiftUI_LearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47689A251E23E70076634D /* SwiftUI_LearningTests.swift */; };
 		BA4768A6251E23E70076634D /* SwiftUI_LearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4768A5251E23E70076634D /* SwiftUI_LearningUITests.swift */; };
+		BA4768B4251E26100076634D /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4768B3251E26100076634D /* MainMenu.swift */; };
+		BA4768B7251E2BC60076634D /* Table of Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4768B6251E2BC60076634D /* Table of Content.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 		BA476880251E23E50076634D /* SwiftUI Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA476883251E23E50076634D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA476885251E23E50076634D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA476887251E23E50076634D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA476889251E23E70076634D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA47688C251E23E70076634D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA47688F251E23E70076634D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		BA4768A1251E23E70076634D /* SwiftUI LearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI LearningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4768A5251E23E70076634D /* SwiftUI_LearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LearningUITests.swift; sourceTree = "<group>"; };
 		BA4768A7251E23E70076634D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4768B3251E26100076634D /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		BA4768B6251E2BC60076634D /* Table of Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Table of Content.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,9 @@
 		BA476882251E23E50076634D /* SwiftUI Learning */ = {
 			isa = PBXGroup;
 			children = (
+				BA4768B5251E2BA30076634D /* Menu */,
 				BA476883251E23E50076634D /* AppDelegate.swift */,
 				BA476885251E23E50076634D /* SceneDelegate.swift */,
-				BA476887251E23E50076634D /* ContentView.swift */,
 				BA476889251E23E70076634D /* Assets.xcassets */,
 				BA47688E251E23E70076634D /* LaunchScreen.storyboard */,
 				BA476891251E23E70076634D /* Info.plist */,
@@ -134,6 +136,15 @@
 				BA4768A7251E23E70076634D /* Info.plist */,
 			);
 			path = "SwiftUI LearningUITests";
+			sourceTree = "<group>";
+		};
+		BA4768B5251E2BA30076634D /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				BA4768B3251E26100076634D /* MainMenu.swift */,
+				BA4768B6251E2BC60076634D /* Table of Content.swift */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,8 +279,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA476884251E23E50076634D /* AppDelegate.swift in Sources */,
+				BA4768B7251E2BC60076634D /* Table of Content.swift in Sources */,
 				BA476886251E23E50076634D /* SceneDelegate.swift in Sources */,
-				BA476888251E23E50076634D /* ContentView.swift in Sources */,
+				BA4768B4251E26100076634D /* MainMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
