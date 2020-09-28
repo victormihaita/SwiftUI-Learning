@@ -9,15 +9,10 @@
 import SwiftUI
 
 struct MainMenu: View {
-    @State private var categories: [MenuItem] = [
-        .swiftUI,
-        .layoutViews
-    ]
-
     var body: some View {
         NavigationView {
             List {
-                ForEach(categories, id: \.self) { category in
+                ForEach(MenuItem.allCases, id: \.self) { category in
                     NavigationLink(
                         destination: CategoryMenu(category: category)
                     ) {
@@ -34,20 +29,11 @@ struct CategoryMenu: View {
 
     var body: some View {
         List {
-            ForEach(category.items, id: \.self) { category in
-                NavigationLink(
-                    //TODO: Fix this
-                    destination: Text(category)
-                ) {
-                    Text(category)
+            ForEach(category.items, id: \.self) { topic in
+                NavigationLink(destination: self.category.getView(for: topic)) {
+                    Text(topic)
                 }
             }
         }.navigationBarTitle(Text(category.title))
-    }
-}
-
-struct MainMenu_Previews: PreviewProvider {
-    static var previews: some View {
-        MainMenu()
     }
 }

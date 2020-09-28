@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA45BE0125213E5F0097BA9C /* ViewsAndModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45BE0025213E5F0097BA9C /* ViewsAndModifiers.swift */; };
+		BA45BE032521C3BC0097BA9C /* Vertical Layout Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45BE022521C3BC0097BA9C /* Vertical Layout Container.swift */; };
+		BA45BE052521C49D0097BA9C /* Horizontal Layout Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45BE042521C49D0097BA9C /* Horizontal Layout Container.swift */; };
+		BA45BE072521E68A0097BA9C /* DepthLayoutContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45BE062521E68A0097BA9C /* DepthLayoutContainer.swift */; };
 		BA476884251E23E50076634D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA476883251E23E50076634D /* AppDelegate.swift */; };
 		BA476886251E23E50076634D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA476885251E23E50076634D /* SceneDelegate.swift */; };
 		BA47688A251E23E70076634D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA476889251E23E70076634D /* Assets.xcassets */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA45BE0025213E5F0097BA9C /* ViewsAndModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiers.swift; sourceTree = "<group>"; };
+		BA45BE022521C3BC0097BA9C /* Vertical Layout Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vertical Layout Container.swift"; sourceTree = "<group>"; };
+		BA45BE042521C49D0097BA9C /* Horizontal Layout Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Horizontal Layout Container.swift"; sourceTree = "<group>"; };
+		BA45BE062521E68A0097BA9C /* DepthLayoutContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthLayoutContainer.swift; sourceTree = "<group>"; };
 		BA476880251E23E50076634D /* SwiftUI Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA476883251E23E50076634D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA476885251E23E50076634D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +86,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA45BDFB251F63F40097BA9C /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				BA45BE0025213E5F0097BA9C /* ViewsAndModifiers.swift */,
+				BA45BE022521C3BC0097BA9C /* Vertical Layout Container.swift */,
+				BA45BE042521C49D0097BA9C /* Horizontal Layout Container.swift */,
+				BA45BE062521E68A0097BA9C /* DepthLayoutContainer.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
 		BA476877251E23E50076634D = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +120,7 @@
 		BA476882251E23E50076634D /* SwiftUI Learning */ = {
 			isa = PBXGroup;
 			children = (
+				BA45BDFB251F63F40097BA9C /* SwiftUI */,
 				BA4768B5251E2BA30076634D /* Menu */,
 				BA476883251E23E50076634D /* AppDelegate.swift */,
 				BA476885251E23E50076634D /* SceneDelegate.swift */,
@@ -278,10 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA45BE0125213E5F0097BA9C /* ViewsAndModifiers.swift in Sources */,
 				BA476884251E23E50076634D /* AppDelegate.swift in Sources */,
 				BA4768B7251E2BC60076634D /* Table of Content.swift in Sources */,
+				BA45BE072521E68A0097BA9C /* DepthLayoutContainer.swift in Sources */,
+				BA45BE052521C49D0097BA9C /* Horizontal Layout Container.swift in Sources */,
 				BA476886251E23E50076634D /* SceneDelegate.swift in Sources */,
 				BA4768B4251E26100076634D /* MainMenu.swift in Sources */,
+				BA45BE032521C3BC0097BA9C /* Vertical Layout Container.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
