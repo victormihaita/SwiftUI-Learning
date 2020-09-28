@@ -10,32 +10,32 @@ import SwiftUI
 
 struct Shapes: View {
     var body: some View {
-        ScrollView(.vertical) {
-            VStack(spacing: 16) {
-                DescriptionView(
-                    title: "Shapes",
-                    subtitle: "Short Introduction",
-                    description: "With SwiftUI views, you can add layers on top (.overlay) and behind (.background) the view.")
+        VStack(spacing: 16) {
+            DescriptionView(
+                title: "Shapes",
+                subtitle: "Short Introduction",
+                description: "With SwiftUI views, you can add layers on top (.overlay) and behind (.background) the view.")
 
-                Text("This text has a rounded rectangle behind it")
-                    .foregroundColor(Color.white)
-                    .padding()
-                    .background(
-                        RoundedRectangle(cornerRadius: 20)
-                            .foregroundColor(Color.blue))
-                    .padding()
+            Text("This text has a rounded rectangle behind it")
+                .foregroundColor(Color.white)
+                .padding()
+                .background(
+                    RoundedRectangle(cornerRadius: 20)
+                        .foregroundColor(Color.blue))
+                .padding()
 
-                Text("But sometimes you can use color + corner radius:")
+            Text("But sometimes you can use color + corner radius:")
 
-                Text("This text has a color and corner radius")
-                    .foregroundColor(Color.white)
-                    .padding()
-                    .background(Color.blue)
-                    .cornerRadius(20)
-                    .padding()
+            Text("This text has a color and corner radius")
+                .foregroundColor(Color.white)
+                .padding()
+                .background(Color.blue)
+                .cornerRadius(20)
+                .padding()
 
-            }.font(.body)
-        }
+            Spacer()
+
+        }.font(.body)
     }
 }
 

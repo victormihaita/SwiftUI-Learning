@@ -32,7 +32,9 @@ enum MenuItem: CaseIterable {
                     "Grid Layout Container",
                     "Short Intro to Symbols",
                     "Layers",
-                    "Shapes"
+                    "Shapes",
+                    "Pull in views",
+                    "Push out views"
             ]
         case .layoutViews:
             return [
@@ -56,7 +58,9 @@ enum MenuItem: CaseIterable {
                     "Grid Layout Container": AnyView(GridLayoutContainer()),
                     "Short Intro to Symbols": AnyView(SFSymbols()),
                     "Layers": AnyView(Layers()),
-                    "Shapes": AnyView(Shapes())
+                    "Shapes": AnyView(Shapes()),
+                    "Pull in views": AnyView(PullInView()),
+                    "Push out views": AnyView(PushOutView())
             ]
         case .layoutViews:
             return [

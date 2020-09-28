@@ -23,6 +23,8 @@
 		BA4768B4251E26100076634D /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4768B3251E26100076634D /* MainMenu.swift */; };
 		BA4768B7251E2BC60076634D /* Table of Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4768B6251E2BC60076634D /* Table of Content.swift */; };
 		BA6D27DB25221BAC00D6AEC1 /* GridLayoutContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6D27DA25221BAC00D6AEC1 /* GridLayoutContainer.swift */; };
+		BA6D27F4252224FD00D6AEC1 /* PullInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6D27F3252224FD00D6AEC1 /* PullInView.swift */; };
+		BA6D27F72522265700D6AEC1 /* PushOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6D27F62522265700D6AEC1 /* PushOutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		BA4768B3251E26100076634D /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		BA4768B6251E2BC60076634D /* Table of Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Table of Content.swift"; sourceTree = "<group>"; };
 		BA6D27DA25221BAC00D6AEC1 /* GridLayoutContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutContainer.swift; sourceTree = "<group>"; };
+		BA6D27F3252224FD00D6AEC1 /* PullInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullInView.swift; sourceTree = "<group>"; };
+		BA6D27F62522265700D6AEC1 /* PushOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushOutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				BA45BE0A2521F1E00097BA9C /* Layers.swift */,
 				BA45BE0C2521F6930097BA9C /* Shapes.swift */,
 				BA6D27DA25221BAC00D6AEC1 /* GridLayoutContainer.swift */,
+				BA6D27F3252224FD00D6AEC1 /* PullInView.swift */,
+				BA6D27F62522265700D6AEC1 /* PushOutView.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -192,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6D27F72522265700D6AEC1 /* PushOutView.swift in Sources */,
 				BA6D27DB25221BAC00D6AEC1 /* GridLayoutContainer.swift in Sources */,
 				BA45BE0125213E5F0097BA9C /* ViewsAndModifiers.swift in Sources */,
 				BA476884251E23E50076634D /* AppDelegate.swift in Sources */,
@@ -200,6 +207,7 @@
 				BA45BE0B2521F1E00097BA9C /* Layers.swift in Sources */,
 				BA4768B7251E2BC60076634D /* Table of Content.swift in Sources */,
 				BA45BE072521E68A0097BA9C /* DepthLayoutContainer.swift in Sources */,
+				BA6D27F4252224FD00D6AEC1 /* PullInView.swift in Sources */,
 				BA45BE052521C49D0097BA9C /* Horizontal Layout Container.swift in Sources */,
 				BA476886251E23E50076634D /* SceneDelegate.swift in Sources */,
 				BA45BE0D2521F6930097BA9C /* Shapes.swift in Sources */,

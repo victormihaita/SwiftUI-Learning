@@ -10,17 +10,17 @@ import SwiftUI
 
 struct SFSymbols: View {
     var body: some View {
-        ScrollView(.vertical) {
-            VStack(spacing: 16) {
-                DescriptionView(
-                    title: "Images",
-                    subtitle: "Using SF Symbols",
-                    description: "You will see I use icons or symbols to add clarity to what I'm demonstrating. This comes from Apple's symbol fon library which you can browse using the app 'SF symbols'")
+        VStack(spacing: 16) {
+            DescriptionView(
+                title: "Images",
+                subtitle: "Using SF Symbols",
+                description: "You will see I use icons or symbols to add clarity to what I'm demonstrating. This comes from Apple's symbol fon library which you can browse using the app 'SF symbols'")
 
-                Image(systemName: "hand.thumbsup.fill")
-            }
-            .font(.largeTitle)
+            Image(systemName: "hand.thumbsup.fill")
+
+            Spacer()
         }
+        .font(.largeTitle)
     }
 }
 

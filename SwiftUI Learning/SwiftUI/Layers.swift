@@ -10,29 +10,28 @@ import SwiftUI
 
 struct Layers: View {
     var body: some View {
-        ScrollView(.vertical) {
-            VStack(spacing: 16) {
-                DescriptionView(
-                    title: "Layers",
-                    subtitle: "The Basics",
-                    description: "With SwiftUI views, you can add layers on top (.overlay) and behind (.background) the view.")
+        VStack(spacing: 16) {
+            DescriptionView(
+                title: "Layers",
+                subtitle: "The Basics",
+                description: "With SwiftUI views, you can add layers on top (.overlay) and behind (.background) the view.")
 
-                Image("car_image")
-                    .resizable()
-                    .scaledToFit()
-                    .overlay(
-                        Text("This is an overlay")
-                            .font(.body)
-                            .padding(4)
-                            .background(Color.white)
-                            .cornerRadius(4)
-                            .padding(4)
-                        .shadow(radius: 16),
-                        alignment: .topLeading
-                    )
+            Image("car_image")
+                .resizable()
+                .scaledToFit()
+                .overlay(
+                    Text("This is an overlay")
+                        .font(.body)
+                        .padding(4)
+                        .background(Color.white)
+                        .cornerRadius(4)
+                        .padding(4)
+                    .shadow(radius: 16),
+                    alignment: .topLeading
+                )
 
-            }.font(.largeTitle)
-        }
+            Spacer()
+        }.font(.largeTitle)
     }
 }
 

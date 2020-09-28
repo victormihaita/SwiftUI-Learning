@@ -14,21 +14,20 @@ struct DescriptionView: View {
     let description: String
     
     var body: some View {
-        ScrollView(.vertical) {
-            VStack(spacing: 16) {
-                Text(title)
-                    .font(.largeTitle)
+        VStack(spacing: 16) {
+            Text(title)
+                .foregroundColor(Color.black)
+                .font(.largeTitle)
 
-                Text(subtitle)
-                    .foregroundColor(Color.gray)
-                    .font(.title)
+            Text(subtitle)
+                .foregroundColor(Color.gray)
+                .font(.title)
 
-                Text(description)
-                    .foregroundColor(Color.white)
-                    .font(.body)
-                    .padding()
-                    .background(Color.blue)
-            }
+            Text(description)
+                .foregroundColor(Color.white)
+                .font(.body)
+                .padding()
+                .background(Color.blue)
         }
     }
 }

@@ -22,6 +22,8 @@ struct VerticalLayoutContainer: View {
 
             Color.orange
                 .cornerRadius(30)
+
+            Spacer()
         }.padding()
 
     }
