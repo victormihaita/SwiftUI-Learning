@@ -12,17 +12,10 @@ struct SFSymbols: View {
     var body: some View {
         ScrollView(.vertical) {
             VStack(spacing: 16) {
-                Text("Images")
-
-                Text("Using SF Symbols")
-                    .foregroundColor(Color.gray)
-                    .font(.title)
-
-                Text("You will see I use icons or symbols to add clarity to what I'm demonstrating. This comes from Apple's symbol fon library which you can browse using the app 'SF symbols'")
-                    .font(.title)
-                    .foregroundColor(Color.white)
-                    .padding()
-                    .background(Color.orange)
+                DescriptionView(
+                    title: "Images",
+                    subtitle: "Using SF Symbols",
+                    description: "You will see I use icons or symbols to add clarity to what I'm demonstrating. This comes from Apple's symbol fon library which you can browse using the app 'SF symbols'")
 
                 Image(systemName: "hand.thumbsup.fill")
             }

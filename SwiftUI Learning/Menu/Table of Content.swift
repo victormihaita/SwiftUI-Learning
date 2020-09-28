@@ -29,7 +29,9 @@ enum MenuItem: CaseIterable {
                     "Vertical Layout Container",
                     "Horizontal Layout Container",
                     "Depth Layout Container",
-                    "Short Intro to Symbols"
+                    "Short Intro to Symbols",
+                    "Layers",
+                    "Shapes"
             ]
         case .layoutViews:
             return [
@@ -50,7 +52,9 @@ enum MenuItem: CaseIterable {
                     "Vertical Layout Container": AnyView(VerticalLayoutContainer()),
                     "Horizontal Layout Container": AnyView(HorizontalLayoutContainer()),
                     "Depth Layout Container": AnyView(DepthLayoutContainer()),
-                    "Short Intro to Symbols": AnyView(SFSymbols())
+                    "Short Intro to Symbols": AnyView(SFSymbols()),
+                    "Layers": AnyView(Layers()),
+                    "Shapes": AnyView(Shapes())
             ]
         case .layoutViews:
             return [

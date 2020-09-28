@@ -12,6 +12,9 @@
 		BA45BE052521C49D0097BA9C /* Horizontal Layout Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45BE042521C49D0097BA9C /* Horizontal Layout Container.swift */; };
 		BA45BE072521E68A0097BA9C /* DepthLayoutContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45BE062521E68A0097BA9C /* DepthLayoutContainer.swift */; };
 		BA45BE092521EF9B0097BA9C /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45BE082521EF9B0097BA9C /* SFSymbols.swift */; };
+		BA45BE0B2521F1E00097BA9C /* Layers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45BE0A2521F1E00097BA9C /* Layers.swift */; };
+		BA45BE0D2521F6930097BA9C /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45BE0C2521F6930097BA9C /* Shapes.swift */; };
+		BA45BE0F2521F6C80097BA9C /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45BE0E2521F6C80097BA9C /* DescriptionView.swift */; };
 		BA476884251E23E50076634D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA476883251E23E50076634D /* AppDelegate.swift */; };
 		BA476886251E23E50076634D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA476885251E23E50076634D /* SceneDelegate.swift */; };
 		BA47688A251E23E70076634D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA476889251E23E70076634D /* Assets.xcassets */; };
@@ -46,6 +49,9 @@
 		BA45BE042521C49D0097BA9C /* Horizontal Layout Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Horizontal Layout Container.swift"; sourceTree = "<group>"; };
 		BA45BE062521E68A0097BA9C /* DepthLayoutContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthLayoutContainer.swift; sourceTree = "<group>"; };
 		BA45BE082521EF9B0097BA9C /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
+		BA45BE0A2521F1E00097BA9C /* Layers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layers.swift; sourceTree = "<group>"; };
+		BA45BE0C2521F6930097BA9C /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		BA45BE0E2521F6C80097BA9C /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 		BA476880251E23E50076634D /* SwiftUI Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA476883251E23E50076634D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA476885251E23E50076634D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +102,8 @@
 				BA45BE042521C49D0097BA9C /* Horizontal Layout Container.swift */,
 				BA45BE062521E68A0097BA9C /* DepthLayoutContainer.swift */,
 				BA45BE082521EF9B0097BA9C /* SFSymbols.swift */,
+				BA45BE0A2521F1E00097BA9C /* Layers.swift */,
+				BA45BE0C2521F6930097BA9C /* Shapes.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -166,6 +174,7 @@
 			children = (
 				BA4768B3251E26100076634D /* MainMenu.swift */,
 				BA4768B6251E2BC60076634D /* Table of Content.swift */,
+				BA45BE0E2521F6C80097BA9C /* DescriptionView.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -304,10 +313,13 @@
 				BA45BE0125213E5F0097BA9C /* ViewsAndModifiers.swift in Sources */,
 				BA476884251E23E50076634D /* AppDelegate.swift in Sources */,
 				BA45BE092521EF9B0097BA9C /* SFSymbols.swift in Sources */,
+				BA45BE0F2521F6C80097BA9C /* DescriptionView.swift in Sources */,
+				BA45BE0B2521F1E00097BA9C /* Layers.swift in Sources */,
 				BA4768B7251E2BC60076634D /* Table of Content.swift in Sources */,
 				BA45BE072521E68A0097BA9C /* DepthLayoutContainer.swift in Sources */,
 				BA45BE052521C49D0097BA9C /* Horizontal Layout Container.swift in Sources */,
 				BA476886251E23E50076634D /* SceneDelegate.swift in Sources */,
+				BA45BE0D2521F6930097BA9C /* Shapes.swift in Sources */,
 				BA4768B4251E26100076634D /* MainMenu.swift in Sources */,
 				BA45BE032521C3BC0097BA9C /* Vertical Layout Container.swift in Sources */,
 			);
