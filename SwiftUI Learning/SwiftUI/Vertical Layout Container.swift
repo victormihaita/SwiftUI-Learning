@@ -10,19 +10,21 @@ import SwiftUI
 
 struct VerticalLayoutContainer: View {
     var body: some View {
-        VStack(spacing: 20) {
-            Color.orange
-                .cornerRadius(30)
+        ScrollView(.vertical) {
+            VStack(spacing: 20) {
+                Color.orange
+                    .cornerRadius(30)
 
-            Color.orange
-                .cornerRadius(30)
+                Color.orange
+                    .cornerRadius(30)
 
-            Color.orange
-                .cornerRadius(30)
+                Color.orange
+                    .cornerRadius(30)
 
-            Color.orange
-                .cornerRadius(30)
-        }.padding()
+                Color.orange
+                    .cornerRadius(30)
+            }.padding()
+        }
     }
 }
 

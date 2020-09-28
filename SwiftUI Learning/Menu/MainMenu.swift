@@ -19,7 +19,7 @@ struct MainMenu: View {
                         Text(category.title)
                     }
                 }
-            }.navigationBarTitle(Text("SwiftUI Views Mastery"))
+            }.navigationBarTitle(Text("Learn SwiftUI"))
         }.navigationViewStyle(DoubleColumnNavigationViewStyle())
     }
 }

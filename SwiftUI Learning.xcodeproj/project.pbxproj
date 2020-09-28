@@ -11,6 +11,7 @@
 		BA45BE032521C3BC0097BA9C /* Vertical Layout Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45BE022521C3BC0097BA9C /* Vertical Layout Container.swift */; };
 		BA45BE052521C49D0097BA9C /* Horizontal Layout Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45BE042521C49D0097BA9C /* Horizontal Layout Container.swift */; };
 		BA45BE072521E68A0097BA9C /* DepthLayoutContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45BE062521E68A0097BA9C /* DepthLayoutContainer.swift */; };
+		BA45BE092521EF9B0097BA9C /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45BE082521EF9B0097BA9C /* SFSymbols.swift */; };
 		BA476884251E23E50076634D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA476883251E23E50076634D /* AppDelegate.swift */; };
 		BA476886251E23E50076634D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA476885251E23E50076634D /* SceneDelegate.swift */; };
 		BA47688A251E23E70076634D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA476889251E23E70076634D /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 		BA45BE022521C3BC0097BA9C /* Vertical Layout Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vertical Layout Container.swift"; sourceTree = "<group>"; };
 		BA45BE042521C49D0097BA9C /* Horizontal Layout Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Horizontal Layout Container.swift"; sourceTree = "<group>"; };
 		BA45BE062521E68A0097BA9C /* DepthLayoutContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthLayoutContainer.swift; sourceTree = "<group>"; };
+		BA45BE082521EF9B0097BA9C /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		BA476880251E23E50076634D /* SwiftUI Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA476883251E23E50076634D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA476885251E23E50076634D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				BA45BE022521C3BC0097BA9C /* Vertical Layout Container.swift */,
 				BA45BE042521C49D0097BA9C /* Horizontal Layout Container.swift */,
 				BA45BE062521E68A0097BA9C /* DepthLayoutContainer.swift */,
+				BA45BE082521EF9B0097BA9C /* SFSymbols.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 			files = (
 				BA45BE0125213E5F0097BA9C /* ViewsAndModifiers.swift in Sources */,
 				BA476884251E23E50076634D /* AppDelegate.swift in Sources */,
+				BA45BE092521EF9B0097BA9C /* SFSymbols.swift in Sources */,
 				BA4768B7251E2BC60076634D /* Table of Content.swift in Sources */,
 				BA45BE072521E68A0097BA9C /* DepthLayoutContainer.swift in Sources */,
 				BA45BE052521C49D0097BA9C /* Horizontal Layout Container.swift in Sources */,

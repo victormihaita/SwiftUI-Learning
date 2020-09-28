@@ -10,21 +10,23 @@ import SwiftUI
 
 struct HorizontalLayoutContainer: View {
     var body: some View {
-        HStack(spacing: 20) {
-            Color.orange
-                .cornerRadius(30)
+        ScrollView(.vertical) {
+            HStack(spacing: 20) {
+                Color.orange
+                    .cornerRadius(30)
 
-            Color.orange
-                .cornerRadius(30)
+                Color.orange
+                    .cornerRadius(30)
 
-            Color.orange
-                .cornerRadius(30)
+                Color.orange
+                    .cornerRadius(30)
+            }
+            .padding()
+            .frame(height: 200)
+            .overlay(
+                RoundedRectangle(cornerRadius: 30).stroke(Color.orange, lineWidth: 6))
+            .padding()
         }
-        .padding()
-        .frame(height: 200)
-        .overlay(
-            RoundedRectangle(cornerRadius: 30).stroke(Color.orange, lineWidth: 6))
-        .padding()
     }
 }
 
